@@ -68,21 +68,11 @@ module Motion
     end
 
     def numbutton_touch_down sender
-      if sender.currentTitle =~ /\d/
-        UIView.animateWithDuration( 0.1,
-                        animations: ->{ sender.layer.backgroundColor = @color.colorWithAlphaComponent(0.7).CGColor },
-                        completion: nil )
-      end
+      PM.logger.info "#{sender} touch down"
     end
 
     def numbutton_touch_up sender
       p sender.tag
-      UIView.animateWithDuration( 0.3,
-                           delay: 0.2,
-                         options: UIViewAnimationCurveEaseIn,
-                      animations: ->{ sender.layer.backgroundColor = UIColor.clearColor.CGColor },
-                      completion: nil )
-
     end
 
     def buttons_prepared_for_appear
