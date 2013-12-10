@@ -1,0 +1,21 @@
+GIT
+  remote: git://github.com/qrush/motion-layout
+  revision: 5070f7ba467eaf678f77e6a3c7d40c4448791603
+  specs:
+    motion-layout (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ProMotion (1.0.4)
+    bubble-wrap (1.4.0)
+    rake (10.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion (~> 1.0.4)
+  bubble-wrap
+  motion-layout!
+  rake
