@@ -34,6 +34,7 @@ class SampleScreen < PM::Screen
       ])
       true
     end
+    @numpad.alpha = 0
     @numpad.buttons_prepared_for_appear
     @numpad.layoutSubviews
   end
@@ -41,6 +42,9 @@ class SampleScreen < PM::Screen
 
   def on_appear
     @numpad.make_buttons_appeared
+    UIView.animateWithDuration( 0.1,
+                    animations: ->{ @numpad.alpha = 1 },
+                    completion: nil )
   end
 
   def will_rotate ori, dur
