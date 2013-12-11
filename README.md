@@ -20,7 +20,7 @@ If you want to see what it looks like on iPad, then
 
 `rake simulator device_family=ipad`
 
-##usage##
+##Usage##
 
 This App only shows how to constract the iOS's passcode-lock-screen-esque numeric keypad so that it does not do any useful things(it's up to you to do the trick!).
 
