@@ -3,6 +3,7 @@ Create Numpad with iOS Auto Layout.
 
 Sample App for Demonstrating NumpadView which is built with Basic Auto Layout Funcionality
 The article' link which described this app more will be posted here onece it's appeared! 
+[Here we go! (Although it is written in Japanese.)](http://qiita.com/OkonomiyakiYuki/items/d6f12d092837efc8c755)
 
 clone it
 
